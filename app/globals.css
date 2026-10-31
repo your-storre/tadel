@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --delta-navy: #003366; --delta-red: #E31837; }
+
+html, body { font-family: "DIN Pro", "DIN Alternate", system-ui, sans-serif; color: #1A1A1A; }
+
+.btn-red {
+  @apply bg-delta-red text-white font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-card
+         hover:bg-delta-redHover transition-colors disabled:opacity-40 disabled:cursor-not-allowed;
+}
+.btn-ghost {
+  @apply border border-delta-navy text-delta-navy font-bold uppercase tracking-wide text-sm
+         px-6 py-3 rounded-card hover:bg-delta-navy hover:text-white transition-colors;
+}
+.field {
+  @apply w-full border border-delta-hair rounded-card px-3 py-3 text-sm bg-white
+         focus:outline-none focus:border-delta-navy focus:ring-1 focus:ring-delta-navy;
+}
+.card { @apply bg-white border border-delta-hair rounded-card shadow-card; }
+.rule { @apply border-t border-delta-hair; }@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --delta-navy: #003366; --delta-red: #E31837; }
+
+html, body { font-family: "DIN Pro", "DIN Alternate", system-ui, sans-serif; color: #1A1A1A; }
+
+.btn-red {
+  @apply bg-delta-red text-white font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-card
+         hover:bg-delta-redHover transition-colors disabled:opacity-40 disabled:cursor-not-allowed;
+}
+.btn-ghost {
+  @apply border border-delta-navy text-delta-navy font-bold uppercase tracking-wide text-sm
+         px-6 py-3 rounded-card hover:bg-delta-navy hover:text-white transition-colors;
+}
+.field {
+  @apply w-full border border-delta-hair rounded-card px-3 py-3 text-sm bg-white
+         focus:outline-none focus:border-delta-navy focus:ring-1 focus:ring-delta-navy;
+}
+.card { @apply bg-white border border-delta-hair rounded-card shadow-card; }
+.rule { @apply border-t border-delta-hair; }
